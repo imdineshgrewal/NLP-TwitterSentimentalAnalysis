@@ -28,10 +28,10 @@ To classify a set of tweets into two categories:
 ## Data Files
  
 
-train.csv - For training the models, we provide a labelled dataset of 31,962 tweets. The dataset is provided in the form of a csv file with each line storing a tweet id, its label and the tweet.
+**train.csv** - For training the models, we provide a labelled dataset of 31,962 tweets. The dataset is provided in the form of a csv file with each line storing a tweet id, its label and the tweet.><br/>
 There is 1 test file (public)
-
-test_tweets.csv - The test data file contains only tweet ids and the tweet text with each tweet in a new line.<br/><br/><br/>
+<br/><br/>
+**test_tweets.csv** - The test data file contains only tweet ids and the tweet text with each tweet in a new line.<br/><br/>
 
 
 ## Evaluation Metric:
@@ -40,21 +40,21 @@ The metric used for evaluating the performance of classification model would be 
 
 The metric can be understood as -
 <br/>
-True Positives (TP) - These are the correctly predicted positive values which means that the value of actual class is yes and the value of predicted class is also yes.<br/>
+**True Positives (TP)** - These are the correctly predicted positive values which means that the value of actual class is yes and the value of predicted class is also yes.<br/>
 
-True Negatives (TN) - These are the correctly predicted negative values which means that the value of actual class is no and value of predicted class is also no.<br/>
+**True Negatives (TN)** - These are the correctly predicted negative values which means that the value of actual class is no and value of predicted class is also no.<br/>
 
-False Positives (FP) – When actual class is no and predicted class is yes.<br/>
+**False Positives (FP)** – When actual class is no and predicted class is yes.<br/>
 
-False Negatives (FN) – When actual class is yes but predicted class in no.<br/>
+**False Negatives (FN)** – When actual class is yes but predicted class in no.<br/>
 
-Precision = TP/TP+FP
+**Precision** = TP/TP+FP
 <br/>
-Recall = TP/TP+FN
+**Recall** = TP/TP+FN
 <br/><br/>
  
 
-F1 Score = 2*(Recall * Precision) / (Recall + Precision)
+**F1 Score** = 2*(Recall * Precision) / (Recall + Precision)
 <br/><br/>
  
 
