@@ -6,24 +6,24 @@ Formally, given a training sample of tweets and labels, where label '1' denotes 
  
 1. Understanding the Problem Statment
 2. Tweets Preprocessing and Cleaning
- * Data Inspection
- * Data Cleaning
+   * Data Inspection
+   * Data Cleaning
 3. Story Generation and Visualization from Tweets
 4. Extracting Feature from Cleaned Tweets
- * Bag-of-Words
- * TF-IDF
- * Word Embeddings
+   * Bag-of-Words
+   * TF-IDF
+   * Word Embeddings
 5. Model Building: Sentiment Analysis
- * Logistic Regression
- * Support Vector Machine
- * RandomForest
- * XGBoost
+   * Logistic Regression
+   * Support Vector Machine
+   * RandomForest
+   * XGBoost
 6. Model Fine-tuning
 7. Summary
 
 To classify a set of tweets into two categories:
- * racist/sexist
- * non-racist/sexist
+   * racist/sexist
+   * non-racist/sexist
   
 ## Data Files
  
@@ -31,8 +31,7 @@ To classify a set of tweets into two categories:
 train.csv - For training the models, we provide a labelled dataset of 31,962 tweets. The dataset is provided in the form of a csv file with each line storing a tweet id, its label and the tweet.
 There is 1 test file (public)
 
-test_tweets.csv - The test data file contains only tweet ids and the tweet text with each tweet in a new line.
-
+test_tweets.csv - The test data file contains only tweet ids and the tweet text with each tweet in a new line.<br/><br/><br/>
 
 
 ## Evaluation Metric:
